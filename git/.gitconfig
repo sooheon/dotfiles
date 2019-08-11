@@ -1,0 +1,21 @@
+[user]
+	name = sooheon
+	email = sooheon@factor.ai
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	pager = true
+	status = true
+	ui = true
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = red
+[push]
+	default = current
+[core]
+	autocrlf = input
+	pager = less -FRSX
+[http]
+	postBuffer = 157286400
